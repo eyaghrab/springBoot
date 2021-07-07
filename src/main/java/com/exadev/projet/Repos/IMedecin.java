@@ -9,5 +9,5 @@ import com.exadev.projet.Model.Medecin;
 
 
 public interface IMedecin extends JpaRepository<Medecin, Long> {
-	Medecin getMedecinById(Long id );
+	Medecin getMedecinById(Long id ) ;
 }
